@@ -9,9 +9,9 @@ public class Main {
         boolean isInfinityLoop = false;
         Formatter formatter = new Formatter();
         Calculator calculator = new Calculator();
+        Scanner scanner = new Scanner(System.in);
         do {
             System.out.println("----------");
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Input your Dividend: ");
             int inputDividend = scanner.nextInt();
             System.out.print("Input your Dividor: ");
@@ -19,7 +19,7 @@ public class Main {
             System.out.println("----------");
             System.out.println(formatter.format(calculator.createLongDivision(inputDividend, inputDividor)));
             System.out.println("----------");
-            scanner.close();
         } while (isInfinityLoop);
+        scanner.close();
     }
 }
