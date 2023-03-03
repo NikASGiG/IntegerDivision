@@ -1,6 +1,6 @@
 # Integer Division Graphical Terminal
 This application that divides numbers and prints results into the console.
-Integer Division Graphical Terminal is implemented with: Java + Maven + JUnit.
+Integer Division Graphical Terminal is implemented with: Java + Maven.
 This project was also created to upgrade the practice of clean code.
 
 # Using 
